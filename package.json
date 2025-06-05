@@ -8,7 +8,8 @@
   "test": "cypress run",
   "test:chrome": "cypress run --browser chrome",
   "test:jest": "jest",
-  "test:all": "npm run test:jest && npm run test"
+  "test:all": "npm run test:jest && npm run test",
+  "test:request": "npx cypress run --spec \"cypress/e2e/request.cy.ts\""
   },
   "keywords": [],
   "author": "",

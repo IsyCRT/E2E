@@ -7,5 +7,6 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // Aquí agregar listeners
     },
+    baseUrl: 'http://localhost:4200'
   },
 });
