@@ -7,6 +7,6 @@
     "types": ["cypress", "node"]
   },
 
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts", "cypress/support/e2e.js"]
 
 }
